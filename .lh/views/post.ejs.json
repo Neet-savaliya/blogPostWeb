@@ -1,0 +1,70 @@
+{
+    "sourceFile": "views/post.ejs",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 13,
+            "patches": [
+                {
+                    "date": 1687454269335,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1687454275333,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-!\n\\ No newline at end of file\n+<%%>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687454283584,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,1 @@\n+<%- include()-%>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687454292112,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,1 @@\n+<%- include(\"header\")-%>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687454301075,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,1 @@\n+<%- include(\"partiheader\") -%>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687454307798,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,2 @@\n+<%- include(\"partials/header\") -%>\r\n+<%- include(\"partials/header\") -%>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687454315623,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,4 @@\n+<%- include(\"partials/header\") -%>\r\n+\r\n+\r\n+<%- include(\"partials/footer\") -%>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687454322596,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,4 @@\n <%- include(\"partials/header\") -%>\r\n+<h1><></h1>\r\n \r\n-\r\n-<%- include(\"partials/footer\") -%>\n-<%- include(\"partials/header\") -%>\r\n-<%- include(\"partials/header\") -%>\n-<%- include(\"partiheader\") -%>\n-<%- include(\"header\")-%>\n-<%- include()-%>\n\\ No newline at end of file\n-<%%>\n+<%- include(\"partials/footer\") -%>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687454328114,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,4 @@\n+<%- include(\"partials/header\") -%>\r\n+<h1><%= %></h1>\r\n+\r\n+<%- include(\"partials/footer\") -%>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687454339200,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,4 @@\n+<%- include(\"partials/header\") -%>\r\n+<h1><%= onePostTitle %></h1>\r\n+\r\n+<%- include(\"partials/footer\") -%>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687454346274,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,5 @@\n+<%- include(\"partials/header\") -%>\r\n+<h1><%= onePostTitle %></h1>\r\n+<p>></p>\r\n+\r\n+<%- include(\"partials/footer\") -%>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687454351623,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,5 @@\n+<%- include(\"partials/header\") -%>\r\n+<h1><%= onePostTitle %></h1>\r\n+<p><%%></p>\r\n+\r\n+<%- include(\"partials/footer\") -%>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687454357240,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,5 @@\n+<%- include(\"partials/header\") -%>\r\n+<h1><%= onePostTitle %></h1>\r\n+<p><%= one%></p>\r\n+\r\n+<%- include(\"partials/footer\") -%>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687454367238,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,27 +1,5 @@\n <%- include(\"partials/header\") -%>\r\n <h1><%= onePostTitle %></h1>\r\n-<p><%= one%></p>\r\n+<p><%= onePostConte%></p>\r\n \r\n-<%- include(\"partials/footer\") -%>\n-<%- include(\"partials/header\") -%>\r\n-<h1><%= onePostTitle %></h1>\r\n-<p><%%></p>\r\n-\r\n-<%- include(\"partials/footer\") -%>\n-<%- include(\"partials/header\") -%>\r\n-<h1><%= onePostTitle %></h1>\r\n-<p>></p>\r\n-\r\n-<%- include(\"partials/footer\") -%>\n-<%- include(\"partials/header\") -%>\r\n-<h1><%= onePostTitle %></h1>\r\n-\r\n-<%- include(\"partials/footer\") -%>\n-<%- include(\"partials/header\") -%>\r\n-<h1><%= %></h1>\r\n-\r\n-<%- include(\"partials/footer\") -%>\n-<%- include(\"partials/header\") -%>\r\n-<h1><></h1>\r\n-\r\n <%- include(\"partials/footer\") -%>\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1687454269335,
+            "name": "Commit-0",
+            "content": "!"
+        }
+    ]
+}

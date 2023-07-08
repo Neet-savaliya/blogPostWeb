@@ -1,0 +1,42 @@
+{
+    "sourceFile": "views/partials/header.ejs",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 6,
+            "patches": [
+                {
+                    "date": 1687414246050,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1687414252763,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,25 @@\n+<!DOCTYPE html>\n+<html lang=\"en\" dir=\"ltr\">\n+\n+<head>\n+  <meta charset=\"utf-8\">\n+  <title>Daily Journal</title>\n+  <meta charset=\"utf-8\">\n+  <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css\">\n+  <link rel=\"stylesheet\" href=\"/css/styles.css\">\n+  <nav class=\"navbar navbar-default\">\n+    <div class=\"container\">\n+      <div class=\"navbar-header\">\n+        <p class=\"navbar-brand\">DAILY JOURNAL</p>\n+      </div>\n+        <ul class=\"nav navbar-nav navbar-right\">\n+          <!-- 6 -->\n+          <li id=\"home\"><a href=\"/\">HOME</a></li>\n+          <li id=\"about\"><a href=\"#\">ABOUT US</a></li>\n+          <li id=\"contact\"><a href=\"#\">CONTACT US</a></li>\n+        </ul>\n+    </div>\n+  </nav>\n+\n+  <body>\n+    <div class=\"container\">\n"
+                },
+                {
+                    "date": 1687414260401,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,25 @@\n+<!DOCTYPE html>\n+<html lang=\"en\" dir=\"ltr\">\n+\n+<head>\n+  <meta charset=\"utf-8\">\n+  <title>Daily Journal</title>\n+  <meta charset=\"utf-8\">\n+  <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css\">\n+  <link rel=\"stylesheet\" href=\"/css/styles.css\">\n+  <nav class=\"navbar navbar-default\">\n+    <div class=\"container\">\n+      <div class=\"navbar-header\">\n+        <p class=\"navbar-brand\">DAILY JOURNAL</p>\n+      </div>\n+        <ul class=\"nav navbar-nav navbar-right\">\n+          <!-- 6 -->\n+          <li id=\"home\"><a href=\"/\">HOME</a></li>\n+          <li id=\"about\"><a href=\"/about\">ABOUT US</a></li>\n+          <li id=\"contact\"><a href=\"#\">CONTACT US</a></li>\n+        </ul>\n+    </div>\n+  </nav>\n+\n+  <body>\n+    <div class=\"container\">\n"
+                },
+                {
+                    "date": 1687414268235,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,61 +15,11 @@\n         <ul class=\"nav navbar-nav navbar-right\">\n           <!-- 6 -->\n           <li id=\"home\"><a href=\"/\">HOME</a></li>\n           <li id=\"about\"><a href=\"/about\">ABOUT US</a></li>\n-          <li id=\"contact\"><a href=\"#\">CONTACT US</a></li>\n+          <li id=\"contact\"><a href=\"/contact\">CONTACT US</a></li>\n         </ul>\n     </div>\n   </nav>\n \n   <body>\n     <div class=\"container\">\n-<!DOCTYPE html>\n-<html lang=\"en\" dir=\"ltr\">\n-\n-<head>\n-  <meta charset=\"utf-8\">\n-  <title>Daily Journal</title>\n-  <meta charset=\"utf-8\">\n-  <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css\">\n-  <link rel=\"stylesheet\" href=\"/css/styles.css\">\n-  <nav class=\"navbar navbar-default\">\n-    <div class=\"container\">\n-      <div class=\"navbar-header\">\n-        <p class=\"navbar-brand\">DAILY JOURNAL</p>\n-      </div>\n-        <ul class=\"nav navbar-nav navbar-right\">\n-          <!-- 6 -->\n-          <li id=\"home\"><a href=\"/\">HOME</a></li>\n-          <li id=\"about\"><a href=\"#\">ABOUT US</a></li>\n-          <li id=\"contact\"><a href=\"#\">CONTACT US</a></li>\n-        </ul>\n-    </div>\n-  </nav>\n-\n-  <body>\n-    <div class=\"container\">\n-<!DOCTYPE html>\n-<html lang=\"en\" dir=\"ltr\">\n-\n-<head>\n-  <meta charset=\"utf-8\">\n-  <title>Daily Journal</title>\n-  <meta charset=\"utf-8\">\n-  <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css\">\n-  <link rel=\"stylesheet\" href=\"/css/styles.css\">\n-  <nav class=\"navbar navbar-default\">\n-    <div class=\"container\">\n-      <div class=\"navbar-header\">\n-        <p class=\"navbar-brand\">DAILY JOURNAL</p>\n-      </div>\n-        <ul class=\"nav navbar-nav navbar-right\">\n-          <!-- 6 -->\n-          <li id=\"home\"><a href=\"/\">HOME</a></li>\n-          <li id=\"about\"><a href=\"#\">ABOUT US</a></li>\n-          <li id=\"contact\"><a href=\"#\">CONTACT US</a></li>\n-        </ul>\n-    </div>\n-  </nav>\n-\n-  <body>\n-    <div class=\"container\">\n"
+                },
+                {
+                    "date": 1687493983741,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,8 +16,9 @@\n           <!-- 6 -->\n           <li id=\"home\"><a href=\"/\">HOME</a></li>\n           <li id=\"about\"><a href=\"/about\">ABOUT US</a></li>\n           <li id=\"contact\"><a href=\"/contact\">CONTACT US</a></li>\n+          <li id=\"contact\"><a href=\"/contact\">CONTACT US</a></li>\n         </ul>\n     </div>\n   </nav>\n \n"
+                },
+                {
+                    "date": 1687493998223,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n           <!-- 6 -->\n           <li id=\"home\"><a href=\"/\">HOME</a></li>\n           <li id=\"about\"><a href=\"/about\">ABOUT US</a></li>\n           <li id=\"contact\"><a href=\"/contact\">CONTACT US</a></li>\n-          <li id=\"contact\"><a href=\"/contact\">CONTACT US</a></li>\n+          <li id=\"compose\"><a href=\"/contact\">CONTACT US</a></li>\n         </ul>\n     </div>\n   </nav>\n \n"
+                },
+                {
+                    "date": 1687494012670,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,26 @@\n+<!DOCTYPE html>\n+<html lang=\"en\" dir=\"ltr\">\n+\n+<head>\n+  <meta charset=\"utf-8\">\n+  <title>Daily Journal</title>\n+  <meta charset=\"utf-8\">\n+  <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css\">\n+  <link rel=\"stylesheet\" href=\"/css/styles.css\">\n+  <nav class=\"navbar navbar-default\">\n+    <div class=\"container\">\n+      <div class=\"navbar-header\">\n+        <p class=\"navbar-brand\">DAILY JOURNAL</p>\n+      </div>\n+        <ul class=\"nav navbar-nav navbar-right\">\n+          <!-- 6 -->\n+          <li id=\"home\"><a href=\"/\">HOME</a></li>\n+          <li id=\"about\"><a href=\"/about\">ABOUT US</a></li>\n+          <li id=\"contact\"><a href=\"/contact\">CONTACT US</a></li>\n+          <li id=\"compose\"><a href=\"/compose\">ADD NEW BLOG</a></li>\n+        </ul>\n+    </div>\n+  </nav>\n+\n+  <body>\n+    <div class=\"container\">\n"
+                }
+            ],
+            "date": 1687414246050,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\n<html lang=\"en\" dir=\"ltr\">\n\n<head>\n  <meta charset=\"utf-8\">\n  <title>Daily Journal</title>\n  <meta charset=\"utf-8\">\n  <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css\">\n  <link rel=\"stylesheet\" href=\"/css/styles.css\">\n  <nav class=\"navbar navbar-default\">\n    <div class=\"container\">\n      <div class=\"navbar-header\">\n        <p class=\"navbar-brand\">DAILY JOURNAL</p>\n      </div>\n        <ul class=\"nav navbar-nav navbar-right\">\n          <!-- 6 -->\n          <li id=\"home\"><a href=\"/\">HOME</a></li>\n          <li id=\"about\"><a href=\"#\">ABOUT US</a></li>\n          <li id=\"contact\"><a href=\"#\">CONTACT US</a></li>\n        </ul>\n    </div>\n  </nav>\n\n  <body>\n    <div class=\"container\">\n"
+        }
+    ]
+}

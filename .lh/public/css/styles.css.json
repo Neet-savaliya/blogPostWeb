@@ -1,0 +1,74 @@
+{
+    "sourceFile": "public/css/styles.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 14,
+            "patches": [
+                {
+                    "date": 1687413329717,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1687413382272,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,8 +28,8 @@\n \tbackground-color: #1abc9c;\n }\n \n .footer p {\n-\tmargin-top: 25px;\n+\t/* margin-top: 25px; */\n \tfont-size: 24px;\n   color: #fff;\n }\n"
+                },
+                {
+                    "date": 1687413390025,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,8 +28,8 @@\n \tbackground-color: #1abc9c;\n }\n \n .footer p {\n-\t/* margin-top: 25px; */\n+\tmargin-top: 15px;\n \tfont-size: 24px;\n   color: #fff;\n }\n"
+                },
+                {
+                    "date": 1687416056130,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,6 +30,7 @@\n \n .footer p {\n \tmargin-top: 15px;\n \tfont-size: 24px;\n-  color: #fff;\n+  colo\n+  r: #fff;\n }\n"
+                },
+                {
+                    "date": 1687416065705,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,7 +30,10 @@\n \n .footer p {\n \tmargin-top: 15px;\n \tfont-size: 24px;\n-  colo\n-  r: #fff;\n+  color: #fff;\n }\n+\n+.form_feild{\n+    margi\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687416134780,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,6 +34,7 @@\n   color: #fff;\n }\n \n .form_feild{\n-    margi\n-}\n\\ No newline at end of file\n+    margin-top: 10px;\n+}\n+.\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687416141206,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,5 +36,7 @@\n \n .form_feild{\n     margin-top: 10px;\n }\n-.\n\\ No newline at end of file\n+.textarea{\n+    width: ;\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687416154528,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,6 +37,7 @@\n .form_feild{\n     margin-top: 10px;\n }\n .textarea{\n-    width: ;\n+    width: 100%;\n+    height: 50px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687416200221,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,6 +38,6 @@\n     margin-top: 10px;\n }\n .textarea{\n     width: 100%;\n-    height: 50px;\n+    height: 160px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687416214557,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,8 +36,9 @@\n \n .form_feild{\n     margin-top: 10px;\n }\n+\n .textarea{\n     width: 100%;\n-    height: 160px;\n+    height: 160px !important;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687416220557,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,5 +40,7 @@\n \n .textarea{\n     width: 100%;\n     height: 160px !important;\n-}\n\\ No newline at end of file\n+}\n+\n+.submit_\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687416228031,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,5 +42,7 @@\n     width: 100%;\n     height: 160px !important;\n }\n \n-.submit_\n\\ No newline at end of file\n+.submit_btn {\n+    -webkit-margin-bottom-collapse: ;\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687416236099,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,6 +43,6 @@\n     height: 160px !important;\n }\n \n .submit_btn {\n-    -webkit-margin-bottom-collapse: ;\n+    margin-top\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687416243446,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,6 +43,6 @@\n     height: 160px !important;\n }\n \n .submit_btn {\n-    margin-top\n+    margin-top : 10px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688663507253,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n \tpadding-bottom: 60px;\n }\n \n .footer {\n-\tposition: absolute;\n+\tposition: relative;\n \ttext-align: center;\n \tbottom: 0;\n \twidth: 100%;\n \theight: 60px;\n"
+                }
+            ],
+            "date": 1687413329717,
+            "name": "Commit-0",
+            "content": ".container-fluid {\n    padding-top: 70px;\n    padding-bottom: 70px;\n}\n.navbar {\n    padding-top: 15px;\n    padding-bottom: 15px;\n    border: 0;\n    border-radius: 0;\n    margin-bottom: 0;\n    font-size: 12px;\n    letter-spacing: 5px;\n}\n.navbar-nav  li a:hover {\n    color: #1abc9c !important;\n}\n\n.footer-padding {\n\tpadding-bottom: 60px;\n}\n\n.footer {\n\tposition: absolute;\n\ttext-align: center;\n\tbottom: 0;\n\twidth: 100%;\n\theight: 60px;\n\tbackground-color: #1abc9c;\n}\n\n.footer p {\n\tmargin-top: 25px;\n\tfont-size: 24px;\n  color: #fff;\n}\n"
+        }
+    ]
+}

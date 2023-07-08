@@ -1,0 +1,16 @@
+<%- include("partials/header") -%>
+<h1>Home</h1>
+<p><%= homeContent %></p>
+<hr style = "color: black; border: 2px solid black;">
+<h1 style="width: 100%; color: black; text-align: center; font-weight: bolder;">BLOGS</h1>
+<hr style = "color: black; border: 2px solid black;">
+<% allPost.forEach((ele) => { %>
+    <h1> <%= ele.title %> </h1>
+    <p> <%= ele.body %>  
+        <% if(ele.isBig){ %>
+            <a class="post_link" href="/post/<%= ele.title %>" >Read more</a>
+       <% } %>
+    </p>
+<% }) %>
+
+<%- include("partials/footer") -%>

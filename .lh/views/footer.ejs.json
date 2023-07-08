@@ -1,0 +1,50 @@
+{
+    "sourceFile": "views/footer.ejs",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 8,
+            "patches": [
+                {
+                    "date": 1687413114778,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1687413125838,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n \n </div>\n <div class=\"footer-padding\"></div>\n   <div class=\"footer\">\n-    <p>Made with ❤️ by The Shriji Codemster</p>\n+    <p>Made with ❤️ by The Codemster</p>\n   </div>\n </div>\n </body>\n </html>\n"
+                },
+                {
+                    "date": 1687413133126,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n \n </div>\n <div class=\"footer-padding\"></div>\n   <div class=\"footer\">\n-    <p>Made with ❤️ by The Codemster</p>\n+    <p>Made with ❤️ by The Codemsters</p>\n   </div>\n </div>\n </body>\n </html>\n"
+                },
+                {
+                    "date": 1687413251832,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+\n+</div>\n+<div class=\"footer-padding\"></div>\n+  <div class=\"footer\">\n+    <p>Made with ❤️ by The Code M</p>\n+  </div>\n+</div>\n+</body>\n+</html>\n"
+                },
+                {
+                    "date": 1687413271712,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+\n+</div>\n+<div class=\"footer-padding\"></div>\n+  <div class=\"footer\">\n+    <p>Made with ❤️ by The Code martial</p>\n+  </div>\n+</div>\n+</body>\n+</html>\n"
+                },
+                {
+                    "date": 1687413294380,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,10 @@\n+\n+</div>\n+<div class=\"footer-padding\"></div>\n+  <div class=\"footer\">\n+    <p>Made with ❤️ by The Code Martial</p>\n+    <p></p>\n+  </div>\n+</div>\n+</body>\n+</html>\n"
+                },
+                {
+                    "date": 1687413303560,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,10 @@\n+\n+</div>\n+<div class=\"footer-padding\"></div>\n+  <div class=\"footer\">\n+    <p>Made with ❤️ by The Code Martial</p>\n+    <p>love</p>\n+  </div>\n+</div>\n+</body>\n+</html>\n"
+                },
+                {
+                    "date": 1687413313592,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,10 @@\n+\n+</div>\n+<div class=\"footer-padding\"></div>\n+  <div class=\"footer\">\n+    <p>Made with ❤️ by The Code Martial</p>\n+    <p>scholl</p>\n+  </div>\n+</div>\n+</body>\n+</html>\n"
+                },
+                {
+                    "date": 1687413320827,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,56 +2,8 @@\n </div>\n <div class=\"footer-padding\"></div>\n   <div class=\"footer\">\n     <p>Made with ❤️ by The Code Martial</p>\n-    <p>scholl</p>\n   </div>\n </div>\n </body>\n </html>\n-\n-</div>\n-<div class=\"footer-padding\"></div>\n-  <div class=\"footer\">\n-    <p>Made with ❤️ by The Code Martial</p>\n-    <p>love</p>\n-  </div>\n-</div>\n-</body>\n-</html>\n-\n-</div>\n-<div class=\"footer-padding\"></div>\n-  <div class=\"footer\">\n-    <p>Made with ❤️ by The Code Martial</p>\n-    <p></p>\n-  </div>\n-</div>\n-</body>\n-</html>\n-\n-</div>\n-<div class=\"footer-padding\"></div>\n-  <div class=\"footer\">\n-    <p>Made with ❤️ by The Code martial</p>\n-  </div>\n-</div>\n-</body>\n-</html>\n-\n-</div>\n-<div class=\"footer-padding\"></div>\n-  <div class=\"footer\">\n-    <p>Made with ❤️ by The Code M</p>\n-  </div>\n-</div>\n-</body>\n-</html>\n-\n-</div>\n-<div class=\"footer-padding\"></div>\n-  <div class=\"footer\">\n-    <p>Made with ❤️ by The Codemsters</p>\n-  </div>\n-</div>\n-</body>\n-</html>\n"
+                }
+            ],
+            "date": 1687413114778,
+            "name": "Commit-0",
+            "content": "\n</div>\n<div class=\"footer-padding\"></div>\n  <div class=\"footer\">\n    <p>Made with ❤️ by The Shriji Codemster</p>\n  </div>\n</div>\n</body>\n</html>\n"
+        }
+    ]
+}

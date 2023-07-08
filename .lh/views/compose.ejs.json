@@ -1,0 +1,102 @@
+{
+    "sourceFile": "views/compose.ejs",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 21,
+            "patches": [
+                {
+                    "date": 1687414348515,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1687414354803,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-<>\n\\ No newline at end of file\n+<%%>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687414360871,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-<%%>\n\\ No newline at end of file\n+<%- include\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687414367195,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,1 @@\n+<%- include(\"\")-%>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687414373802,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,1 @@\n+<%- include(\"partials/\")-%>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687414379034,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,2 @@\n+<%- include(\"partials/header\")-%>\r\n+<%- include(\"partials/header\")-%>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687414385168,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,3 @@\n <%- include(\"partials/header\")-%>\r\n-<%- include(\"partials/header\")-%>\n-<%- include(\"partials/\")-%>\n-<%- include(\"\")-%>\n-<%- include\n\\ No newline at end of file\n+\r\n+<%- include(\"partials/footer\")-%>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687414391272,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,3 @@\n+<%- include(\"partials/header\")-%>\r\n+<h1>Compo</h1>\r\n+<%- include(\"partials/footer\")-%>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687414398912,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,4 @@\n+<%- include(\"partials/header\")-%>\r\n+<h1>Compose</h1>\r\n+<form action=\"\"></form>\r\n+<%- include(\"partials/footer\")-%>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687414409579,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,6 @@\n+<%- include(\"partials/header\")-%>\r\n+<h1>Compose</h1>\r\n+<form action=\"/\">\r\n+    input\r\n+</form>\r\n+<%- include(\"partials/footer\")-%>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687414417380,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,15 +2,5 @@\n <h1>Compose</h1>\r\n <form action=\"/\">\r\n     input\r\n </form>\r\n-<%- include(\"partials/footer\")-%>\n-<%- include(\"partials/header\")-%>\r\n-<h1>Compose</h1>\r\n-<form action=\"\"></form>\r\n-<%- include(\"partials/footer\")-%>\n-<%- include(\"partials/header\")-%>\r\n-<h1>Compo</h1>\r\n-<%- include(\"partials/footer\")-%>\n-<%- include(\"partials/header\")-%>\r\n-\r\n <%- include(\"partials/footer\")-%>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687414426163,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,6 @@\n+<%- include(\"partials/header\")-%>\r\n+<h1>Compose</h1>\r\n+<form action=\"/\">\r\n+    <input type=\"text\" name=\"aded\" id=\"\">\r\n+</form>\r\n+<%- include(\"partials/footer\")-%>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687414431427,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,6 @@\n+<%- include(\"partials/header\")-%>\r\n+<h1>Compose</h1>\r\n+<form action=\"/\">\r\n+    <input type=\"text\" name=\"added \" id=\"\">\r\n+</form>\r\n+<%- include(\"partials/footer\")-%>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687414438072,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,6 @@\n+<%- include(\"partials/header\")-%>\r\n+<h1>Compose</h1>\r\n+<form action=\"/\">\r\n+    <input type=\"text\" name=\"addedContent\" id=\"\">\r\n+</form>\r\n+<%- include(\"partials/footer\")-%>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687414443715,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+<%- include(\"partials/header\")-%>\r\n+<h1>Compose</h1>\r\n+<form action=\"/\">\r\n+    <input type=\"text\" name=\"addedContent\">\r\n+    \r\n+</form>\r\n+<%- include(\"partials/footer\")-%>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687414452154,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+<%- include(\"partials/header\")-%>\r\n+<h1>Compose</h1>\r\n+<form action=\"/\">\r\n+    <input type=\"text\" name=\"addedContent\">\r\n+    <button type=\"submit\">Publish</button>\r\n+</form>\r\n+<%- include(\"partials/footer\")-%>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687414583784,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <%- include(\"partials/header\")-%>\r\n <h1>Compose</h1>\r\n-<form action=\"/\">\r\n+<form action=\"/compose\">\r\n     <input type=\"text\" name=\"addedContent\">\r\n     <button type=\"submit\">Publish</button>\r\n </form>\r\n <%- include(\"partials/footer\")-%>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687414695594,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,36 +3,5 @@\n <form action=\"/compose\">\r\n     <input type=\"text\" name=\"addedContent\">\r\n     <button type=\"submit\">Publish</button>\r\n </form>\r\n-<%- include(\"partials/footer\")-%>\n-<%- include(\"partials/header\")-%>\r\n-<h1>Compose</h1>\r\n-<form action=\"/\">\r\n-    <input type=\"text\" name=\"addedContent\">\r\n-    \r\n-</form>\r\n-<%- include(\"partials/footer\")-%>\n-<%- include(\"partials/header\")-%>\r\n-<h1>Compose</h1>\r\n-<form action=\"/\">\r\n-    <input type=\"text\" name=\"addedContent\" id=\"\">\r\n-</form>\r\n-<%- include(\"partials/footer\")-%>\n-<%- include(\"partials/header\")-%>\r\n-<h1>Compose</h1>\r\n-<form action=\"/\">\r\n-    <input type=\"text\" name=\"added \" id=\"\">\r\n-</form>\r\n-<%- include(\"partials/footer\")-%>\n-<%- include(\"partials/header\")-%>\r\n-<h1>Compose</h1>\r\n-<form action=\"/\">\r\n-    <input type=\"text\" name=\"aded\" id=\"\">\r\n-</form>\r\n-<%- include(\"partials/footer\")-%>\n-<%- include(\"partials/header\")-%>\r\n-<h1>Compose</h1>\r\n-<form action=\"/\">\r\n-    input\r\n-</form>\r\n <%- include(\"partials/footer\")-%>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687414709599,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <%- include(\"partials/header\")-%>\r\n <h1>Compose</h1>\r\n-<form action=\"/compose\">\r\n+<form action=\"/compose\" >\r\n     <input type=\"text\" name=\"addedContent\">\r\n     <button type=\"submit\">Publish</button>\r\n </form>\r\n <%- include(\"partials/footer\")-%>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687414717099,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+<%- include(\"partials/header\")-%>\r\n+<h1>Compose</h1>\r\n+<form action=\"/compose\" method=\"post\">\r\n+    <input type=\"text\" name=\"addedContent\">\r\n+    <button type=\"submit\">Publish</button>\r\n+</form>\r\n+<%- include(\"partials/footer\")-%>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687415296182,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <%- include(\"partials/header\")-%>\r\n-<h1 >Compose</h1>\r\n+<h1 c>Compose</h1>\r\n <form action=\"/compose\" method=\"post\">\r\n     <input type=\"text\" name=\"addedContent\">\r\n     <button type=\"submit\">Publish</button>\r\n </form>\r\n"
+                },
+                {
+                    "date": 1687415389605,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,5 +3,5 @@\n <form action=\"/compose\" method=\"post\">\r\n     <input type=\"text\" name=\"addedContent\">\r\n     <button type=\"submit\">Publish</button>\r\n </form>\r\n-<%- include(\"partials/footer\")-\n\\ No newline at end of file\n+<%- include(\"partials/footer\")-%>\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1687414348515,
+            "name": "Commit-0",
+            "content": "<>"
+        }
+    ]
+}
